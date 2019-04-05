@@ -12,9 +12,7 @@ public class Phone {
 		 * Create a Class “Phone”. Create 3 Objects of it: iPhone, Android, Nokia with
 		 * specific attributes and behaviours.
 		 * 
-		 * Create a Dog Class and create 3 different objects of it: Husky, Bulldog,
-		 * Labrador with specific attributes and behaviours.
-		 */
+		 */ 
 		
 		Phone ph1=new Phone();
 		
@@ -25,7 +23,7 @@ public class Phone {
 		ph1.camera=3;
 		ph1.speaker=true;
 		
-		System.out.println("I have "+ph1.make+" that has "+ph1.camera+" camera");
+		System.out.println("I have "+ph1.make+" that has "+ph1.camera+" cameras");
 		
 		Phone ph2=new Phone();
 		
@@ -48,6 +46,15 @@ public class Phone {
 		
 
 		
+	}
+	void ring() {
+		System.out.println("Phone can ring");
+	}
+	void call() {
+		System.out.println("Phone can call");
+	}
+	void connect() {
+		System.out.println("Phone can connect to world");
 	}
 
 }
