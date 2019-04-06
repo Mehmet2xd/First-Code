@@ -15,11 +15,15 @@ public class Task1 {
 	}
 	 
 	 public static void main(String[] args) {
-		 int a;
+		 ASDF();
+		
+	}
+
+	public static void ASDF() {
+		int a;
 		 Task1 obj=new Task1();
 		 a=obj.larger(20, 40);
 		 System.out.println(obj.larger(20, 40));
 		 System.out.println("Larger is "+a);
-		
 	}
 }

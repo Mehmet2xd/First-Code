@@ -6,6 +6,14 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
 		// 8. Write a Java Program to print first 10 numbers of Fibonacci series.*/
+		FIBONACCI();
+		
+		
+		
+
+	}
+
+	public static void FIBONACCI() {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("enter number of terms");
@@ -27,10 +35,6 @@ public class Fibonacci {
 			}
 			System.out.println(nextTerm);
 		}
-		
-		
-		
-
 	}
 
 }
